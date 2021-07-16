@@ -394,15 +394,17 @@ Call to Action section*/
 		background-size: cover; /* Resize the background image to cover the entire container */
 		padding: 5rem 0;
     }
+	
     #counter .mycard-title{
         margin-bottom: 0;
         padding-bottom: 0;
-        font-size: 30px;
+        font-size: 37px;
 		font-family: 'Poppins-Medium', sans-serif; 
     }
     #counter .mycard-paragraph{
       
 		font-family: 'Poppins-Bold', sans-serif; 
+		font-size: 37px;
     }
     #counter .column{
         margin: 20px 0;
@@ -412,6 +414,9 @@ Call to Action section*/
     width: 20%;
     margin: 0 auto;
     margin-bottom: 29px;
+}
+#counter .mycard :nth-child(2) .card-img{
+	margin-bottom: 10px;
 }
 
 
@@ -667,6 +672,15 @@ footer .social-icon{
 #counter {
  
     padding: 3rem 0;
+}
+#counter .mycard-title {
+    font-size: 27px;
+}
+#counter .mycard-paragraph {
+    font-size: 27px;
+}
+#counter .mycard :nth-child(2) .card-img {
+    margin-bottom: 16px;
 }
 #post {
     padding: 3em 0;
