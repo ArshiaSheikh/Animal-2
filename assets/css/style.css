@@ -975,6 +975,12 @@ footer .social-icon{
 				padding: 0;
 			
 		}
+		#cta-2{
+			margin: 1rem 0;
+		}
+		#cta-2 .cta-text {
+			 padding: 20px 0  0 0; 
+		}
 
 		.team-card .card-1 , .team-card .card-2, .team-card .card-3{
 			padding: 20px  0; 
