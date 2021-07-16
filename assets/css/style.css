@@ -148,6 +148,8 @@ font-size: 25px;
 }
 .navbar .form-inline{
 	justify-content: center;
+    box-shadow: 0 5px 5px rgb(52 52 52 / 30%);
+
 }
 .search-input::placeholder {
 	color: #fff;
@@ -696,6 +698,12 @@ footer .social-icon{
 		footer .desc {
 			align-items: center;
 			padding-top: 20px;
+		}
+	}
+	@media (max-width:986px){
+		input.form-control.search-input {
+			
+			width: 100%;
 		}
 	}
     @media all and (max-width:936px){
